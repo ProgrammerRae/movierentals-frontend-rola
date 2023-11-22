@@ -1,0 +1,23 @@
+.filter {
+    width: fit-content;
+    color: var(--text);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.filter :is(label){
+    margin-right: 5px;
+}
+
+.filter :is(select){
+    border-radius: 10px;
+    border: 1px solid var(--accent);
+    background-color: transparent;
+    padding: 2px;
+    color: var(--text);
+}
+
+.filter :is(option){
+    background-color: var(--background);
+}

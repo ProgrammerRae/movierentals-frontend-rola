@@ -1,0 +1,12 @@
+#favorites{
+    padding: 2%;
+    color: var(--text);
+}
+
+#favorites h1 {
+    margin-bottom: 2%;
+    background: linear-gradient(45deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

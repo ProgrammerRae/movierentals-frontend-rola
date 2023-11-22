@@ -1,0 +1,29 @@
+:root{
+  --background: #000000;
+  --text: #E9EBE0;
+  --primary: #B8CAAF;
+  --secondary: #101812;
+  --accent: #62936A;
+}
+body {
+  background-color: var(--background);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  --outline: 1px solid red;
+}
+
+/* animations */
+
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

@@ -1,0 +1,32 @@
+.card {
+    color: var(--text);
+    overflow-y: hidden;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    width: 170px;
+    height: 220px;
+}
+
+.card :is(img){
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    height: 220px;
+}
+
+.card-details {
+    width: 170px;
+    height: 220px;
+    position: relative;
+    top: -102%;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px 0 15px 0;
+    text-align: center;
+    opacity: 0;
+}
+
+.card-details:hover{
+    opacity: 1;
+    animation: fade-in 0.25s ease-in-out;
+}

@@ -1,0 +1,65 @@
+.nav-bar {
+    width: 100%;
+    height: fit-content;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 10px;
+    border-bottom: 1px solid var(--secondary);
+
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation :is(a){
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid var(--accent);
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.options :is(button){
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+.options .loglink{
+    margin-left: 10%;
+    text-decoration: none;
+    color: azure;
+}
+.options .cartlink{
+}
+.options img{
+    width: 100%;
+}
+#userProf{
+    margin-left: 30%;
+}
+.options label{
+    color:aliceblue;
+    margin-right: 20%;
+}
+.options button{
+    height: 20px;
+    width: 20px;
+}
+#userInfo{
+    font-size: medium;
+    color: aliceblue;
+    margin-right: 20%;
+}

@@ -1,0 +1,39 @@
+.banner {
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.movie-search {
+    color: var(--text);
+    gap: 2%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.movie-search input {
+    width: 50%;
+    border-radius: 100px;
+    border: 3px solid var(--accent);
+    background-color: transparent;
+    padding: 5px 10px 5px 10px;
+    color: var(--text);
+    font-size: x-large;
+    text-align: center;
+}
+
+.movie-search button {
+    height: fit-content;
+    border: 1px solid var(--accent);
+    border-radius: 100px;
+    padding: 4px 20px 4px 20px;
+    background-color: var(--primary);
+    font-size: large;
+}
